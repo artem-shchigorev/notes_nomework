@@ -23,7 +23,7 @@ def writing_note():
             file.write("\n")
             # Преобразуем дату и время в нужный фотакрмат
             now = datetime.datetime.now()
-            formatted_date_time = now.strftime("%Y-%m-%d %H:%M:%S")
+            formatted_date_time = now.strftime("%Y-%m-%d")
             file.write("Дата создания заметки: %s" % formatted_date_time)
             file.write("\n---------------------------------------")
         
